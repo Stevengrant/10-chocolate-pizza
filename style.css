@@ -1,0 +1,224 @@
+* {
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+header {
+  position: relative;
+  height: 90px;
+  margin-bottom: 20px;
+}
+
+main {
+  margin: auto;
+  width: 960px;
+  background-image: url("./img/hr-img.png");
+  background-repeat: repeat-x;
+  background-size: 10px;
+}
+
+footer {
+  margin: auto;
+  position: relative;
+}
+
+nav {
+  margin: auto;
+  width: 960px;
+}
+
+nav > ul {
+  position: absolute;
+  top: 50%;
+  height: 80px;
+  margin-top: -20px;
+}
+
+nav > ul > li:first-child {
+  margin-right: 10px;
+}
+
+nav > ul > li {
+  float: left;
+}
+
+nav > ul > li:nth-child(2) {
+  margin-right: 430px;
+}
+
+nav > ul > li {
+  margin-right: 4px;
+}
+
+nav > ul > li:nth-child(8) {
+  margin-right: 10px;
+}
+
+nav > ul > li > h2 {
+  font-size: 2em;
+  font-family: fantasy;
+}
+
+nav > ul > li > p {
+  font-size: 0.9em;
+}
+
+#title {
+  width: 960px;
+  font-family: Arial, sans-serif;
+  font-weight: 600;
+  
+}
+
+#title > ul > li {
+  margin-bottom: 30px;
+}
+
+#title > ul > li > h1 {
+  font-size: 2.5em;
+  margin-top: 40px;
+}
+
+#title > ul > li > p {
+  color: #555;
+  font-size: .8em;
+}
+
+#title > ul > li:last-child {
+  float:right;
+  margin-top: -50px;
+}
+
+#mainBody > img {
+  width: 960px;
+  margin-bottom: 30px;
+}
+
+#mainBody > p {
+  text-indent: 40px;
+  margin-bottom: 30px;
+  font-size: 1.14em;
+  line-height: 1.4em;
+  color: #555;
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+#recipeTable > img {
+  width: 960px;
+  margin-bottom: 30px;
+}
+
+#vanessa {
+  width: 960px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  height: 80px;
+  padding: 40px;
+  background-image: url("./img/hr-img.png");
+  background-repeat: repeat-x;
+  background-size: 10px;
+}
+
+#vanessa > ul > li {
+  float: left
+}
+
+#vanessa > ul > li:first-child {
+  margin-right: 20px;
+}
+
+#vanessa > ul > li > h2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5em;
+  color: #333;
+  font-weight: 575;
+  margin-bottom: 10px;
+}
+
+#vanessa > ul > li >p {
+  font-size: 1.1em;
+  color: #555;
+  width: 520px;
+  line-height: 1.2em;
+}
+
+button {
+  margin-top: 0px;
+  margin-left: 40px;
+  border: none;
+  padding: 15px 30px;
+  color: whitesmoke;
+  font-weight: 550;
+  font-size: 1.1em;
+  background-color: rgb(178, 115, 93);
+}
+
+#recipeTable {
+  background-image:url("./img/list-bg.png");
+  background-repeat: no-repeat;
+  margin: auto;
+  width: 960px;
+  height: 300px;
+  padding: 30px;
+  line-height: 1.8em;
+}
+
+input[type=checkbox]:checked {
+  color: transparent;
+  
+}
+
+input[type=checkbox]:checked + label {
+  text-decoration: line-through;
+  color: #444;
+}
+
+table {
+  margin: auto;
+  background: none;
+  z-index: 2;
+}
+
+table * {
+  background:none;  
+  font-family:  'Patrick Hand', cursive;
+  color: #444;
+  font-size: 1.1em;
+}
+
+td {
+  background:none;
+  padding-left:30px;
+  padding-top:0px;
+}
+
+tr {
+  background:none;
+  padding: 0px;
+}
+
+label:nth-child(2n){
+  padding-right: 100px;
+}
+
+hr {
+  opacity: .2;
+  width: 960px;
+  margin-top: 60px;
+  position: absoulte;
+  z-index: 1;
+}
+
+footer > img {
+  margin-top: -30px;
+  opacity: .7;
+  margin-left: 50%;
+  z-index: 2;
+}
+
+footer > p {
+  text-align: center;
+  color: #555;
+  font-size: 1.02em;
+  font-family: 'Times New Roman', Times, serif;
+}
