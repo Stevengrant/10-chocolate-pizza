@@ -1,2 +1,2 @@
 # 10-chocolate-pizza
-Nicholas Paro and Steve
+Nicholas Paro and Steve Grant
