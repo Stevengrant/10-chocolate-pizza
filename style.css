@@ -167,7 +167,7 @@ input[type=checkbox]:checked {
   color: transparent;
   
 }
-
+/* https://stackoverflow.com/questions/30975459/add-strikethrough-to-checked-checkbox */
 input[type=checkbox]:checked + label {
   text-decoration: line-through;
   color: #444;
